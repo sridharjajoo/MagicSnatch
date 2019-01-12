@@ -12,7 +12,7 @@ import dagger.android.AndroidInjector;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.HasActivityInjector;
 
-public class MagicSnatchMainApplication extends MultiDexApplication implements HasActivityInjector{
+public class MagicSnatchMainApplication extends MultiDexApplication implements HasActivityInjector {
 
     public static volatile Context context;
 
