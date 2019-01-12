@@ -2,6 +2,8 @@ package com.example.sridharjajoo.magicsnatch.di.modules;
 
 import com.example.sridharjajoo.magicsnatch.MagicSnatchMainApplication;
 import com.example.sridharjajoo.magicsnatch.data.LoginApi;
+import com.example.sridharjajoo.magicsnatch.data.LoginRequest;
+import com.example.sridharjajoo.magicsnatch.data.LoginResponse;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -39,7 +41,7 @@ public class NetworkModule {
 
     @Provides
     Class[] providesMappedClasses() {
-        return new Class[]{LoginApi.class};
+        return new Class[]{LoginResponse.class, LoginRequest.class};
     }
 
     @Provides
@@ -95,7 +97,7 @@ public class NetworkModule {
                 .client(client)
                 .addConverterFactory(factory)
                 .addCallAdapterFactory(callAdapterFactory)
-                .baseUrl("https://blooming-sands-96493.herokuapp.com/insertintable/")
+                .baseUrl("https://blooming-sands-96493.herokuapp.com/")
                 .build();
     }
 }

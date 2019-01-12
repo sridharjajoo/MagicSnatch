@@ -1,4 +1,4 @@
-package com.example.sridharjajoo.magicsnatch.di;
+package com.example.sridharjajoo.magicsnatch.di.modules;
 
 import android.arch.lifecycle.ViewModel;
 
