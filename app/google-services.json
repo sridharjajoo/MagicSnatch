@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1062522548594",
+    "firebase_url": "https://magicsnatch.firebaseio.com",
+    "project_id": "magicsnatch",
+    "storage_bucket": "magicsnatch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062522548594:android:6698cb947c44d943",
+        "android_client_info": {
+          "package_name": "com.example.sridharjajoo.magicsnatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062522548594-eagdq6ak6ftohca0imaun5i7f8hboncp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sridharjajoo.magicsnatch",
+            "certificate_hash": "72a725a70861b21fad2cd271c24a91cc1f65f036"
+          }
+        },
+        {
+          "client_id": "1062522548594-p1d1hl8e5n7ppqm951tkhlo69ibpro0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk3UV9BJx9Aj0gfhJZYR0UthdKRIJjw5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062522548594-p1d1hl8e5n7ppqm951tkhlo69ibpro0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

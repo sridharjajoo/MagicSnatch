@@ -3,6 +3,9 @@
     package="com.example.sridharjajoo.magicsnatch">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
     <application
         android:name=".MagicSnatchMainApplication"
         android:allowBackup="true"
